@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 40px;
+  color: rgb(62, 134, 110);
+}
+
+.input-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 360px;
+  padding: 10px 20px;
+  font-size: 17px;
+  outline: none;
+  border: 1px solid rgb(62, 134, 110);
+  border-radius: 4px;
+}
+
+.recipe-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 17px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  background: rgb(62, 134, 110);
+  cursor: pointer;
+  color: #f4f4f4;
+  margin: 5px;
+}
+
+.cotent img {
+  width: 300px;
+  height: 250px;
+  border-radius: 4px;
+  margin: 35px auto;
+}
+
+.cotent p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.recipe {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.col-1 {
+  flex-basis: 40%;
+}
+
+.col-1 img {
+  width: 500px;
+  height: 500px;
+  margin: 20px 50px;
+  border-radius: 10px;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  text-align: left;
+  margin: 30px 0;
+  color: rgb(9, 118, 82);
+}
+
+.para {
+  margin: 20px 0;
+  color: rgb(9, 70, 50);
+}
+
+.col-2 h4 {
+  margin: 10px 0;
+}
+
+.heading {
+  font-size: 28px;
+}
